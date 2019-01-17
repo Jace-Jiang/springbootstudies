@@ -20,7 +20,7 @@ public class helloWorldController {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "hello world!";
+		return "hello world!";//测试与互联关系
 	}
 	
 	public static void main(String[] args) throws Exception {
