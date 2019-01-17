@@ -10,6 +10,11 @@ import com.fasterxml.jackson.databind.annotation.JsonAppend.Attr;
 
 @Controller
 @EnableAutoConfiguration
+/**
+ * 
+ * @author jlq 2019-01-17
+ *
+ */
 public class helloWorldController {
 	
 	@RequestMapping("/")
